@@ -41,7 +41,7 @@ class SelectionSort{
 public class ArraySort {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        //BubbleSort bubbleSort = new BubbleSort();
+        BubbleSort bubbleSort = new BubbleSort();
         SelectionSort selectionSort = new SelectionSort();
         System.out.println("*************本程序用于数组排序****************");
         System.out.println("请输入想要排序的数的数目：");
@@ -56,8 +56,8 @@ public class ArraySort {
             System.out.println("输入完毕，开始排序");
             System.out.println("原数组为：");
             System.out.println(Arrays.toString(ns));
-            //bubbleSort.sort(ns);
-            selectionSort.sort(ns);
+            bubbleSort.sort(ns);
+            //selectionSort.sort(ns);
             System.out.println("排序后的数组为：");
             System.out.println(Arrays.toString(ns));
         }else

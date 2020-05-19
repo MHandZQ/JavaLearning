@@ -10,7 +10,6 @@ public class Main {
         System.out.println(s.equals(insert) ? "测试成功" : "测试失败");
     }
 
-    //方法1
     static String buildInsertSql(String table, String[] fields) {
         StringBuilder sb = new StringBuilder(1000);
         sb.append("INSERT INTO ")

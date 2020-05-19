@@ -13,7 +13,7 @@ abstract class Incomes{//抽象类
     public abstract double getTax();//抽象方法，没有具体执行代码
 }
 
-class WriteIncome extends Incomes{//子类WriteIncome继承Incomes
+class WriteIncome extends Incomes{//子类WriteIncome继承抽象类Incomes，且必须对抽象方法覆写
     public WriteIncome(double income){//子类构造方法
         super(income);
     }

@@ -1,3 +1,8 @@
+/*
+用StringJoiner连接字符串
+delimiter：定界符
+ */
+
 package Joiner;
 
 import java.util.StringJoiner;
